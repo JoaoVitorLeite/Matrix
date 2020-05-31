@@ -1,5 +1,6 @@
 package matrix
 
+
 import Num.Implicits._
 
 class Matrix[A](val row: A, val col: A, values: List[List[A]])(implicit op: Num[A]){
